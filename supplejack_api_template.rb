@@ -61,7 +61,7 @@ if pids.present?
   puts '------------------------------------------------------------------'
 end
 
-rake 'sunspot:solr:start'
+rake 'sunspot:solr:run'
 #solr_resposne = ''
 
 #while solr_resposne.blank?
