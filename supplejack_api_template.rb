@@ -72,8 +72,8 @@ rake 'sunspot:solr:start'
 #end
 
 #puts 'Solr has started.'
--puts 'Sleeping for 15 seconds because sunspot is can be slow to wake up in the morning... \n'
--sleep 15
+puts 'Sleeping for 15 seconds because sunspot is can be slow to wake up in the morning... '
+sleep 15
 
 # ------------------------------------------------------
 # Start Sidekiq
