@@ -72,7 +72,7 @@ rake 'sunspot:solr:start'
 #end
 
 #puts 'Solr has started.'
--puts '\nSleeping for 15 seconds because sunspot is can be slow to wake up in the morning... \n'
+-puts 'Sleeping for 15 seconds because sunspot is can be slow to wake up in the morning... \n'
 -sleep 15
 
 # ------------------------------------------------------
