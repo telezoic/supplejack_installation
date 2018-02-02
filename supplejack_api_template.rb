@@ -62,17 +62,18 @@ if pids.present?
 end
 
 rake 'sunspot:solr:start'
-solr_resposne = ''
+#solr_resposne = ''
 
-while solr_resposne.blank?
-  puts 'Sleeping until sunspot is responsive...'
-  sleep 2
-  solr_resposne = `curl -IL --silent http://127.0.0.1:8982 | grep '200 OK'`
-  puts solr_resposne
-end
+#while solr_resposne.blank?
+#  puts 'Sleeping until sunspot is responsive...'
+#  sleep 2
+#  solr_resposne = `curl -IL --silent http://127.0.0.1:8982 | grep '200 OK'`
+#  puts solr_resposne
+#end
 
-puts 'Solr has started.'
-
+#puts 'Solr has started.'
+-puts '\nSleeping for 15 seconds because sunspot is can be slow to wake up in the morning... \n'
+-sleep 15
 
 # ------------------------------------------------------
 # Start Sidekiq
